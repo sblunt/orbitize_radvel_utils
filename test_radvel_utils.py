@@ -5,7 +5,7 @@ from astropy.time import Time
 from pytest import approx
 
 import orbitize
-from orbitize.radvel_utils.compute_sep import compute_sep
+from compute_sep import compute_sep
 
 def test_compute_sep():
 
